@@ -52,7 +52,7 @@ conda activate mmdet # this is the environment that I used for inference.
 
 ### 注意事项
 代码全部在ubuntu24上面实现，win平台需要考虑跨平台问题。如果需要验证，请使用cmake重新编译并把可执行文件放到对应位置。
-推理部分需要GPU支持，如果推理失败，则请在roi huffman里面注释掉system调用python的部分，使用crops文件夹里面存留的图片
+推理部分需要GPU支持，如果推理失败，则请在roi huffman里面注释掉system调用python的部分，使用crops文件夹里面存留的图片。不过这个需要自己去改代码了，作者不考虑这个问题
 
 ### .tlpress 文件规约
 文件头： 
